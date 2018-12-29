@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ent:</strong>
+  <%= @fare.ent %>
+</p>
+
+<p>
+  <strong>Ext:</strong>
+  <%= @fare.ext %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @fare.price %>
+</p>
+
+<%= link_to 'Edit', edit_fare_path(@fare) %> |
+<%= link_to 'Back', fares_path %>
