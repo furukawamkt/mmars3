@@ -1,18 +1,45 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Ent:</strong>
+  <strong>乗車駅:</strong>
   <%= @fare.ent %>
+  <br />
+  イベント情報：
+  <br />
+  <%= @title_ent %> /
+  <%= @date_ent %> /
+  <%= @place_ent %>
+  <br />
+  天気情報：
+  <br />
+  <%= @weather_ent %> 
+  <%= @query_ent %>
 </p>
 
 <p>
-  <strong>Ext:</strong>
+  <strong>降車駅:</strong>
   <%= @fare.ext %>
+  <br />
+  イベント情報：
+  <br />
+  <%= @title_ext %> /
+  <%= @date_ext %> /
+  <%= @place_ext %>
+  <br />
+  天気情報：
+  <br />
+  <%= @weather_ext %>  
 </p>
 
 <p>
-  <strong>Price:</strong>
+  <strong>運賃:</strong>
   <%= @fare.price %>
+</p>
+
+<!-- jsonとエラー-->
+<p hidden>
+result: <%= @result%>
+message: <%= @message%>
 </p>
 
 <%= link_to 'Edit', edit_fare_path(@fare) %> |
