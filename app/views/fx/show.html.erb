@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Fx#show</h1>
+
+<p>
+  <strong>乗車駅:</strong>
+  <%= @fare.ent %>
+  <br />
+  イベント情報：
+  <br />
+  <%= @title_ent %> /
+  <%= @date_ent %> /
+  <%= @place_ent %>
+  <br />
+  天気情報：
+  <br />
+  <%= @weather_ent %> 
+  <%= @query_ent %>
+</p>
+
+<p>
+  <strong>降車駅:</strong>
+  <%= @fare.ext %>
+  <br />
+  イベント情報：
+  <br />
+  <%= @title_ext %> /
+  <%= @date_ext %> /
+  <%= @place_ext %>
+  <br />
+  天気情報：
+  <br />
+  <%= @weather_ext %>  
+</p>
+
+<p>
+  <strong>運賃:</strong>
+  <%= @fare.price %>
+</p>
+
+<!-- jsonとエラー-->
+<p hidden>
+result: <%= @result%>
+message: <%= @message%>
+</p>
+
+<%= link_to 'Edit', edit_fare_path(@fare) %> |
+<%= link_to 'Back', fares_path %>
+
+<p>Find me in app/views/fx/show.html.erb</p>
