@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-  get 'rx', to: 'rx#create', as: 'rx'
-  get 'fx', to: 'fx#show',   as: 'fx'
+  get 'tx/index'
+  get 'tx/reserve'
+  get 'tx/buy'
+  get 'rx', to: 'rx#regist', as: 'rx'
+  get 'fx', to: 'fx#calc',   as: 'fx'
   resources :reserves
   resources :fares
   get 'hello_page/hello'
