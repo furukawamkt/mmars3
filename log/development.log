@@ -4978,3 +4978,1088 @@ Processing by TxController#index as HTML
 Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/zx/create" for 113.147.11.121 at 2019-01-09 12:57:27 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (6.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/zx/create"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/tx" for 113.147.11.121 at 2019-01-09 12:57:52 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 271ms (Views: 270.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 113.147.11.121 at 2019-01-09 12:58:49 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 50ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 113.147.11.121 at 2019-01-09 12:58:54 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [POST] "/tx"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/tx" for 113.147.11.121 at 2019-01-09 12:59:26 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [POST] "/tx"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/tx" for 113.147.11.121 at 2019-01-09 13:02:17 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 113.147.11.121 at 2019-01-09 13:02:19 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [POST] "/tx"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/tx" for 113.147.11.121 at 2019-01-09 13:03:33 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ec2-user/environment/mmars3/config/routes.rb:5: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+ 'tx', to: 'tx#reserve', as :'tx_reserve'
+                              ^):
+  
+config/routes.rb:5: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+Started GET "/tx" for 113.147.11.121 at 2019-01-09 13:04:32 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 113.147.11.121 at 2019-01-09 13:04:34 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FCxDEcjcs+pDBJ8HLg1z3rCFp4Q0Fhr6vCtewHsd9Oja1E+QV0lWHwNx2R/+LephejAQ0E7FaJrBzf+zcgCZug==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+  Rendering tx/reserve.html.erb within layouts/application
+  Rendered tx/reserve.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 113.147.11.121 at 2019-01-09 13:07:02 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 113.147.11.121 at 2019-01-09 13:07:04 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WQrtFqFU47TqaZbnQr2U2QgcR+RGPkIs45X1kyor6DGX8uGXPsEGQaoc0P+SnQ1mwqnwsDztMEyec1TgIzaFYw==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+  Rendering tx/reserve.html.erb within layouts/application
+  Rendered tx/reserve.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 113.147.11.121 at 2019-01-09 13:09:48 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 113.147.11.121 at 2019-01-09 13:09:49 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bUYBaS1ZfkaqKF4fBB7hn6wuMghEwwEgySmqZMwWnQSjvg3ossybs+pdGAfUPnggZpuFXD4Qc0C0zwsXxQvwVg==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+  Rendering tx/reserve.html.erb within layouts/application
+  Rendered tx/reserve.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 113.147.11.121 at 2019-01-09 13:10:02 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 113.147.11.121 at 2019-01-09 13:10:08 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GQkuqQSiYReRuU6JwVtyqKEWRFA5GWyVRcVQN6ZFHNfX8SIomzeE4tHMCJERe+sXa6PzBEPKHvU4I/FEr1hxhQ==", "name"=>"sometwo", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+  Rendering tx/reserve.html.erb within layouts/application
+  Rendered tx/reserve.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 113.147.11.121 at 2019-01-09 13:10:10 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 113.147.11.121 at 2019-01-09 13:14:19 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 103ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 113.147.11.121 at 2019-01-09 13:15:08 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 113.147.11.121 at 2019-01-09 13:15:12 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rrH2FLV8bbdY0SDwU2dhqzxQTXDv1Rpe9dbZEDmK6pZgSfqVKumIQhikZuiDR/gU9uX6JJUGaD6IMHhjMJeHxA==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+  Rendering tx/reserve.html.erb within layouts/application
+  Rendered tx/reserve.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 113.147.11.121 at 2019-01-09 13:15:14 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 113.147.11.121 at 2019-01-09 13:15:31 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 113.147.11.121 at 2019-01-09 13:15:34 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jQmfrLiKRqQ6UIor6A/tc37yYtOpvBt8w+u/2QWrP1lD8ZMtJx+jUXolzDM4L3TMtEfVh9NvaRy+DR6qDLZSCw==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+  Rendering tx/reserve.html.erb within layouts/application
+  Rendered tx/reserve.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 113.147.11.121 at 2019-01-09 13:15:35 +0000
+Cannot render console from 113.147.11.121! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 202.240.192.8 at 2019-01-11 14:32:51 +0000
+Cannot render console from 202.240.192.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (7.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (183.4ms)
+Completed 200 OK in 239ms (Views: 233.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 202.240.192.8 at 2019-01-11 14:32:55 +0000
+Cannot render console from 202.240.192.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application.js" for 202.240.192.8 at 2019-01-11 14:32:56 +0000
+Cannot render console from 202.240.192.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/application.js" for 202.240.192.8 at 2019-01-11 14:32:57 +0000
+Cannot render console from 202.240.192.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/application.js"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 14:33:32 +0000
+Cannot render console from 202.240.192.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 14:33:35 +0000
+Cannot render console from 202.240.192.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 14:33:39 +0000
+Cannot render console from 202.240.192.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P01RRJqnSUsPfsUdO4pk3dCFaPm0rXU811TJSosvEy63wav5J124ySA42HjHBx5R2ebuXrzIoeAGxK9RqXLedA==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+  Rendering tx/reserve.html.erb within layouts/application
+  Rendered tx/reserve.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 14:40:17 +0000
+Cannot render console from 202.240.192.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fx" for 202.240.192.8 at 2019-01-11 14:40:30 +0000
+Cannot render console from 202.240.192.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for FxController):
+  
+actionpack (5.2.0) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.0) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.0) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.0) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.0) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.7.0) lib/puma/configuration.rb:226:in `call'
+puma (3.7.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.0) lib/puma/server.rb:415:in `process_client'
+puma (3.7.0) lib/puma/server.rb:275:in `block in run'
+puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 202.240.192.8 at 2019-01-11 14:43:43 +0000
+Cannot render console from 202.240.192.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (109.0ms)
+Completed 200 OK in 158ms (Views: 152.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 202.240.192.8 at 2019-01-11 14:43:47 +0000
+Cannot render console from 202.240.192.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 202.240.192.8 at 2019-01-11 14:45:32 +0000
+Cannot render console from 202.240.192.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HelloPageController#hello as HTML
+  Rendering hello_page/hello.html.erb within layouts/application
+  Rendered hello_page/hello.html.erb within layouts/application (123.0ms)
+Completed 200 OK in 158ms (Views: 152.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 14:47:40 +0000
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 158ms (Views: 152.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 14:48:28 +0000
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 14:48:30 +0000
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SctHqL+o4CIMjsWYonA/khZJMbLaF21MG+7H6vdOX4DBR70VAlIRoCPI2P1e/UUeHyq3FdJyuZDKfqHx1ROS2g==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+  Rendering tx/reserve.html.erb within layouts/application
+  Rendered tx/reserve.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 14:48:32 +0000
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 42ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fx" for 202.240.192.8 at 2019-01-11 14:48:35 +0000
+Processing by FxController#calc as HTML
+  [1m[36mFare Load (0.2ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` IS NULL AND `fares`.`ext` IS NULL ORDER BY `fares`.`id` ASC LIMIT 1[0m
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 1.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `ent' for nil:NilClass):
+    4: 
+    5: <p>
+    6:   <strong>乗車駅:</strong>
+    7:   <%= @fare.ent %>
+    8:   <br />
+    9:   イベント情報：
+   10:   <br />
+  
+app/views/fx/calc.html.erb:7:in `_app_views_fx_calc_html_erb__3562919548743445139_70263115733100'
+app/controllers/fx_controller.rb:8:in `block (2 levels) in calc'
+app/controllers/fx_controller.rb:7:in `calc'
+Started GET "/fx?ent=tokyo" for 202.240.192.8 at 2019-01-11 14:48:58 +0000
+Processing by FxController#calc as HTML
+  Parameters: {"ent"=>"tokyo"}
+  [1m[36mFare Load (0.3ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` = 'tokyo' AND `fares`.`ext` IS NULL ORDER BY `fares`.`id` ASC LIMIT 1[0m
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `ent' for nil:NilClass):
+    4: 
+    5: <p>
+    6:   <strong>乗車駅:</strong>
+    7:   <%= @fare.ent %>
+    8:   <br />
+    9:   イベント情報：
+   10:   <br />
+  
+app/views/fx/calc.html.erb:7:in `_app_views_fx_calc_html_erb__3562919548743445139_70263093850240'
+app/controllers/fx_controller.rb:8:in `block (2 levels) in calc'
+app/controllers/fx_controller.rb:7:in `calc'
+Started GET "/fx?ent=tokyo&ext=fukuoka" for 202.240.192.8 at 2019-01-11 14:49:32 +0000
+Processing by FxController#calc as HTML
+  Parameters: {"ent"=>"tokyo", "ext"=>"fukuoka"}
+  [1m[36mFare Load (0.3ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` = 'tokyo' AND `fares`.`ext` = 'fukuoka' ORDER BY `fares`.`id` ASC LIMIT 1[0m
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 33ms (Views: 24.3ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:01:04 +0000
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FIBIkzg4atb74aHYMp9F190G+f/GaEzIWkVBEqu5eeCcDLIuhcKbVNSnvL3OEj9b1GV/WM4NmBSL1ScJieS0ug==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `ent' for nil:NilClass):
+    4: 
+    5: <p>
+    6:   <strong>乗車駅:</strong>
+    7:   <%= @fare.ent %>
+    8:   <br />
+    9:   イベント情報：
+   10:   <br />
+  
+app/views/fx/calc.html.erb:7:in `_app_views_fx_calc_html_erb__3562919548743445139_70263098593740'
+app/controllers/tx_controller.rb:14:in `reserve'
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:01:26 +0000
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FIBIkzg4atb74aHYMp9F190G+f/GaEzIWkVBEqu5eeCcDLIuhcKbVNSnvL3OEj9b1GV/WM4NmBSL1ScJieS0ug==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template fx/calc(@query) with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ec2-user/environment/mmars3/app/views"
+):
+  
+app/controllers/tx_controller.rb:14:in `reserve'
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:03:19 +0000
+  
+SyntaxError (/home/ec2-user/environment/mmars3/app/controllers/tx_controller.rb:14: syntax error, unexpected '\n', expecting =>):
+  
+app/controllers/tx_controller.rb:14: syntax error, unexpected '\n', expecting =>
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:07:20 +0000
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FIBIkzg4atb74aHYMp9F190G+f/GaEzIWkVBEqu5eeCcDLIuhcKbVNSnvL3OEj9b1GV/WM4NmBSL1ScJieS0ug==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Redirected to https://6cda68634f0745e7a3b26e4c937b6d81.vfs.cloud9.ap-southeast-1.amazonaws.com/fx?ent=furuoka&ext=tokyo
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fx?ent=furuoka&ext=tokyo" for 202.240.192.8 at 2019-01-11 15:07:21 +0000
+Processing by FxController#calc as HTML
+  Parameters: {"ent"=>"furuoka", "ext"=>"tokyo"}
+  [1m[36mFare Load (0.2ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` = 'furuoka' AND `fares`.`ext` = 'tokyo' ORDER BY `fares`.`id` ASC LIMIT 1[0m
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `ent' for nil:NilClass):
+    4: 
+    5: <p>
+    6:   <strong>乗車駅:</strong>
+    7:   <%= @fare.ent %>
+    8:   <br />
+    9:   イベント情報：
+   10:   <br />
+  
+app/views/fx/calc.html.erb:7:in `_app_views_fx_calc_html_erb__3562919548743445139_70263116952600'
+app/controllers/fx_controller.rb:8:in `block (2 levels) in calc'
+app/controllers/fx_controller.rb:7:in `calc'
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 15:07:24 +0000
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 15:07:40 +0000
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:07:42 +0000
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9S5NPIr/UiiIx9FPM3KwFC1ZyhKz7TO7Ja39fEKaP6Z9oreBNwWjqqeBzCrP/8qYJDpMtbuI52f0PZtnYMfy/A==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Redirected to https://6cda68634f0745e7a3b26e4c937b6d81.vfs.cloud9.ap-southeast-1.amazonaws.com/fx?ent=tokyo&ext=furuoka
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fx?ent=tokyo&ext=furuoka" for 202.240.192.8 at 2019-01-11 15:07:43 +0000
+Processing by FxController#calc as HTML
+  Parameters: {"ent"=>"tokyo", "ext"=>"furuoka"}
+  [1m[36mFare Load (0.2ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` = 'tokyo' AND `fares`.`ext` = 'furuoka' ORDER BY `fares`.`id` ASC LIMIT 1[0m
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `ent' for nil:NilClass):
+    4: 
+    5: <p>
+    6:   <strong>乗車駅:</strong>
+    7:   <%= @fare.ent %>
+    8:   <br />
+    9:   イベント情報：
+   10:   <br />
+  
+app/views/fx/calc.html.erb:7:in `_app_views_fx_calc_html_erb__3562919548743445139_70263119460700'
+app/controllers/fx_controller.rb:8:in `block (2 levels) in calc'
+app/controllers/fx_controller.rb:7:in `calc'
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 15:07:47 +0000
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:13:31 +0000
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aXPur/jVd1zL0T0StrajENfNUI7gLulquqWwQLurLVLh/xQSRS+G3uSXIHdKO9mc3q7WKehLPbZrNdZbmfbgCA==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Redirected to https://6cda68634f0745e7a3b26e4c937b6d81.vfs.cloud9.ap-southeast-1.amazonaws.com/fx
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fx" for 202.240.192.8 at 2019-01-11 15:13:31 +0000
+Processing by FxController#calc as HTML
+  [1m[36mFare Load (0.2ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` IS NULL AND `fares`.`ext` IS NULL ORDER BY `fares`.`id` ASC LIMIT 1[0m
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `ent' for nil:NilClass):
+    4: 
+    5: <p>
+    6:   <strong>乗車駅:</strong>
+    7:   <%= @fare.ent %>
+    8:   <br />
+    9:   イベント情報：
+   10:   <br />
+  
+app/views/fx/calc.html.erb:7:in `_app_views_fx_calc_html_erb__3562919548743445139_70263097730540'
+app/controllers/fx_controller.rb:8:in `block (2 levels) in calc'
+app/controllers/fx_controller.rb:7:in `calc'
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 15:13:34 +0000
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:13:46 +0000
+  
+SyntaxError (/home/ec2-user/environment/mmars3/app/controllers/tx_controller.rb:14: syntax error, unexpected '\n', expecting =>):
+  
+app/controllers/tx_controller.rb:14: syntax error, unexpected '\n', expecting =>
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:14:22 +0000
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gFF2Fll+LDWLJLFc9t8Y51GP0vkvNBHxPap9yYcA7p4I3Yyr5ITdt6RirDkKUmJrWOxUXidRxS3sOhvSpV0jxA==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Redirected to https://6cda68634f0745e7a3b26e4c937b6d81.vfs.cloud9.ap-southeast-1.amazonaws.com/fx?ent=tokyo&ext=furuoka
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fx?ent=tokyo&ext=furuoka" for 202.240.192.8 at 2019-01-11 15:14:23 +0000
+Processing by FxController#calc as HTML
+  Parameters: {"ent"=>"tokyo", "ext"=>"furuoka"}
+  [1m[36mFare Load (0.2ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` = 'tokyo' AND `fares`.`ext` = 'furuoka' ORDER BY `fares`.`id` ASC LIMIT 1[0m
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `ent' for nil:NilClass):
+    4: 
+    5: <p>
+    6:   <strong>乗車駅:</strong>
+    7:   <%= @fare.ent %>
+    8:   <br />
+    9:   イベント情報：
+   10:   <br />
+  
+app/views/fx/calc.html.erb:7:in `_app_views_fx_calc_html_erb__3562919548743445139_70263099164860'
+app/controllers/fx_controller.rb:8:in `block (2 levels) in calc'
+app/controllers/fx_controller.rb:7:in `calc'
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 15:14:27 +0000
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 15:14:51 +0000
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:14:53 +0000
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qb5oHNEmWla7o+lQvyGK97h7smxr3NUTI5DbkkgpYU8hMpKhbNyr1JTl9DVDrPB7sRg0y2O5Ac/yAL2JanSsFQ==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Redirected to https://6cda68634f0745e7a3b26e4c937b6d81.vfs.cloud9.ap-southeast-1.amazonaws.com/fx?ent=tokyo&ext=furuoka
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fx?ent=tokyo&ext=furuoka" for 202.240.192.8 at 2019-01-11 15:14:53 +0000
+Processing by FxController#calc as HTML
+  Parameters: {"ent"=>"tokyo", "ext"=>"furuoka"}
+  [1m[36mFare Load (0.2ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` = 'tokyo' AND `fares`.`ext` = 'furuoka' ORDER BY `fares`.`id` ASC LIMIT 1[0m
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `ent' for nil:NilClass):
+    4: 
+    5: <p>
+    6:   <strong>乗車駅:</strong>
+    7:   <%= @fare.ent %>
+    8:   <br />
+    9:   イベント情報：
+   10:   <br />
+  
+app/views/fx/calc.html.erb:7:in `_app_views_fx_calc_html_erb__3562919548743445139_70263100279060'
+app/controllers/fx_controller.rb:8:in `block (2 levels) in calc'
+app/controllers/fx_controller.rb:7:in `calc'
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 15:14:57 +0000
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:16:33 +0000
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6dzdw3VMSN9maSjqG8NUmWYjARIeWdnPCdhiVyzgiUFhUCd+yLa5XUkvNY/nTi4Vb0CHtRY8DRPYSARMDr1EGw==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Redirected to https://6cda68634f0745e7a3b26e4c937b6d81.vfs.cloud9.ap-southeast-1.amazonaws.com/fx?ent=tokyo&ext=furuoka
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fx?ent=tokyo&ext=furuoka" for 202.240.192.8 at 2019-01-11 15:16:34 +0000
+Processing by FxController#calc as HTML
+  Parameters: {"ent"=>"tokyo", "ext"=>"furuoka"}
+  [1m[36mFare Load (0.2ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` = 'tokyo' AND `fares`.`ext` = 'furuoka' ORDER BY `fares`.`id` ASC LIMIT 1[0m
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `ent' for nil:NilClass):
+    4: 
+    5: <p>
+    6:   <strong>乗車駅:</strong>
+    7:   <%= @fare.ent %>
+    8:   <br />
+    9:   イベント情報：
+   10:   <br />
+  
+app/views/fx/calc.html.erb:7:in `_app_views_fx_calc_html_erb__3562919548743445139_70263094856720'
+app/controllers/fx_controller.rb:8:in `block (2 levels) in calc'
+app/controllers/fx_controller.rb:7:in `calc'
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 15:16:37 +0000
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:18:03 +0000
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mr+rywgJP5af7tZowynwUXB05XmK1N5xUgLHe4XqUJ4SM1F2tfPOFLCoyw0/pIrdeRdj3oKxCq2DkqFgp7edxA==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Redirected to https://6cda68634f0745e7a3b26e4c937b6d81.vfs.cloud9.ap-southeast-1.amazonaws.com/fx?ent=tokyo&ext=furuoka
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fx?ent=tokyo&ext=furuoka" for 202.240.192.8 at 2019-01-11 15:18:03 +0000
+Processing by FxController#calc as HTML
+  Parameters: {"ent"=>"tokyo", "ext"=>"furuoka"}
+  [1m[36mFare Load (0.2ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` = 'tokyo' AND `fares`.`ext` = 'furuoka' ORDER BY `fares`.`id` ASC LIMIT 1[0m
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `ent' for nil:NilClass):
+    4: 
+    5: <p>
+    6:   <strong>乗車駅:</strong>
+    7:   <%= @fare.ent %>
+    8:   <br />
+    9:   イベント情報：
+   10:   <br />
+  
+app/views/fx/calc.html.erb:7:in `_app_views_fx_calc_html_erb__3562919548743445139_70263117872940'
+app/controllers/fx_controller.rb:8:in `block (2 levels) in calc'
+app/controllers/fx_controller.rb:7:in `calc'
+Started GET "/fx?ent=tokyo&ext=furuoka" for 202.240.192.8 at 2019-01-11 15:19:40 +0000
+Processing by FxController#calc as HTML
+  Parameters: {"ent"=>"tokyo", "ext"=>"furuoka"}
+  [1m[36mFare Load (0.2ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` = 'tokyo' AND `fares`.`ext` = 'furuoka' ORDER BY `fares`.`id` ASC LIMIT 1[0m
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `ent' for nil:NilClass):
+    4: 
+    5: <p>
+    6:   <strong>乗車駅:</strong>
+    7:   <%= @fare.ent %>
+    8:   <br />
+    9:   イベント情報：
+   10:   <br />
+  
+app/views/fx/calc.html.erb:7:in `_app_views_fx_calc_html_erb__3562919548743445139_70263098581960'
+app/controllers/fx_controller.rb:8:in `block (2 levels) in calc'
+app/controllers/fx_controller.rb:7:in `calc'
+Started GET "/fx?ent=tokyo&ext=furuoka" for 202.240.192.8 at 2019-01-11 15:19:46 +0000
+Processing by FxController#calc as HTML
+  Parameters: {"ent"=>"tokyo", "ext"=>"furuoka"}
+  [1m[36mFare Load (0.3ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` = 'tokyo' AND `fares`.`ext` = 'furuoka' ORDER BY `fares`.`id` ASC LIMIT 1[0m
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `ent' for nil:NilClass):
+    4: 
+    5: <p>
+    6:   <strong>乗車駅:</strong>
+    7:   <%= @fare.ent %>
+    8:   <br />
+    9:   イベント情報：
+   10:   <br />
+  
+app/views/fx/calc.html.erb:7:in `_app_views_fx_calc_html_erb__3562919548743445139_70263097431920'
+app/controllers/fx_controller.rb:8:in `block (2 levels) in calc'
+app/controllers/fx_controller.rb:7:in `calc'
+Started GET "/fares" for 202.240.192.8 at 2019-01-11 15:20:28 +0000
+Processing by FaresController#index as HTML
+  Rendering fares/index.html.erb within layouts/application
+  [1m[36mFare Load (0.3ms)[0m  [1m[34mSELECT `fares`.* FROM `fares`[0m
+  Rendered fares/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fx?ent=tokyo&ext=fukuoka" for 202.240.192.8 at 2019-01-11 15:20:37 +0000
+Processing by FxController#calc as HTML
+  Parameters: {"ent"=>"tokyo", "ext"=>"fukuoka"}
+  [1m[36mFare Load (0.3ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` = 'tokyo' AND `fares`.`ext` = 'fukuoka' ORDER BY `fares`.`id` ASC LIMIT 1[0m
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 15:20:47 +0000
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:20:49 +0000
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QUP1ZvZ/S+dfflMTsTPzl36m2i3Ulvs4DzLaDHSqLK3Jzw/bS4W6ZXA4TnZNvokbd8VcitzzL+TeorwXVvfh9w==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Redirected to https://6cda68634f0745e7a3b26e4c937b6d81.vfs.cloud9.ap-southeast-1.amazonaws.com/fx?ent=tokyo&ext=fukuoka
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fx?ent=tokyo&ext=fukuoka" for 202.240.192.8 at 2019-01-11 15:20:49 +0000
+Processing by FxController#calc as HTML
+  Parameters: {"ent"=>"tokyo", "ext"=>"fukuoka"}
+  [1m[36mFare Load (0.2ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` = 'tokyo' AND `fares`.`ext` = 'fukuoka' ORDER BY `fares`.`id` ASC LIMIT 1[0m
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 27.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 15:20:53 +0000
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:20:56 +0000
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fUr2A4hWS8saW6QcbB93V1deGiadbbjFuLfnyFxA3R71xgy+Nay6STUduXmQkg3bXj2cgZUIbBlpJ4HTfh0QRA==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Redirected to https://6cda68634f0745e7a3b26e4c937b6d81.vfs.cloud9.ap-southeast-1.amazonaws.com/fx?ent=tokyo&ext=fukuoka
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fx?ent=tokyo&ext=fukuoka" for 202.240.192.8 at 2019-01-11 15:20:57 +0000
+Processing by FxController#calc as HTML
+  Parameters: {"ent"=>"tokyo", "ext"=>"fukuoka"}
+  [1m[36mFare Load (0.3ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` = 'tokyo' AND `fares`.`ext` = 'fukuoka' ORDER BY `fares`.`id` ASC LIMIT 1[0m
+  Rendering fx/calc.html.erb within layouts/application
+  Rendered fx/calc.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 15:20:59 +0000
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:27:12 +0000
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oTFD1OpnskVrKPRhYWQhDIcVBTLDDqprXvuticA3xpApvblpV51Dx0Ru6QSd6VuAjnaDlctrfrePa8uS4moLyg==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Redirected to https://6cda68634f0745e7a3b26e4c937b6d81.vfs.cloud9.ap-southeast-1.amazonaws.com/fx?ent=tokyo&ext=fukuoka
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/fx?ent=tokyo&ext=fukuoka" for 202.240.192.8 at 2019-01-11 15:27:12 +0000
+Processing by FxController#calc as HTML
+  Parameters: {"ent"=>"tokyo", "ext"=>"fukuoka"}
+  [1m[36mFare Load (0.2ms)[0m  [1m[34mSELECT  `fares`.* FROM `fares` WHERE `fares`.`ent` = 'tokyo' AND `fares`.`ext` = 'fukuoka' ORDER BY `fares`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 15:27:17 +0000
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:39:11 +0000
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4PRnrlHx3iuu8UrWcuL7m3Sfo1B5DNkKGMOBboJ7xMRoeJ0T7AsvqYG3V7OOb4EXffwl93FpDdbJU+d1oCYJng==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to localhost:80 (Connection refused - connect(2) for "localhost" port 80)):
+  
+app/controllers/tx_controller.rb:24:in `reserve'
+Started GET "/tx" for 202.240.192.8 at 2019-01-11 15:40:35 +0000
+Processing by TxController#index as HTML
+  Rendering tx/index.html.erb within layouts/application
+  Rendered tx/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:41:38 +0000
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"toGiQ0cF9ZwNlk8D84ihVxfmvZEVnoAdSl4QeI92R6w+DVj++v8EHiLQUmYPBdvbHoU7Nh37VMGbznZjrSuK9g==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to localhost:80 (Connection refused - connect(2) for "localhost" port 80)):
+  
+app/controllers/tx_controller.rb:23:in `reserve'
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:42:13 +0000
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"toGiQ0cF9ZwNlk8D84ihVxfmvZEVnoAdSl4QeI92R6w+DVj++v8EHiLQUmYPBdvbHoU7Nh37VMGbznZjrSuK9g==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to localhost:80 (Connection refused - connect(2) for "localhost" port 80)):
+  
+app/controllers/tx_controller.rb:23:in `reserve'
+Started GET "/fares" for 202.240.192.8 at 2019-01-11 15:42:59 +0000
+Processing by FaresController#index as HTML
+  Rendering fares/index.html.erb within layouts/application
+  [1m[36mFare Load (0.3ms)[0m  [1m[34mSELECT `fares`.* FROM `fares`[0m
+  Rendered fares/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 30ms (Views: 26.6ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:43:16 +0000
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"toGiQ0cF9ZwNlk8D84ihVxfmvZEVnoAdSl4QeI92R6w+DVj++v8EHiLQUmYPBdvbHoU7Nh37VMGbznZjrSuK9g==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to localhost:443 (Connection refused - connect(2) for "localhost" port 443)):
+  
+app/controllers/tx_controller.rb:23:in `reserve'
+Started POST "/tx" for 202.240.192.8 at 2019-01-11 15:44:38 +0000
+Processing by TxController#reserve as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"toGiQ0cF9ZwNlk8D84ihVxfmvZEVnoAdSl4QeI92R6w+DVj++v8EHiLQUmYPBdvbHoU7Nh37VMGbznZjrSuK9g==", "name"=>"someone", "date"=>"2020-04-01", "ent"=>"tokyo", "ext"=>"fukuoka", "button"=>""}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to 127.0.0.1:443 (Connection refused - connect(2) for "127.0.0.1" port 443)):
+  
+app/controllers/tx_controller.rb:23:in `reserve'

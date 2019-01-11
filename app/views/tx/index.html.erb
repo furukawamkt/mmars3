@@ -1,6 +1,7 @@
 <h1>mmars3 indexpage</h1>
 
 <%= form_tag(tx_path, method: :post) do %>
+
   <%= label_tag :name %>
     <%= text_field_tag :name , "someone"%>
   <br />
@@ -13,7 +14,10 @@
   <%= label_tag :ext %>
     <%= text_field_tag :ext , "fukuoka" %>
   <br />
-  <%= submit_tag "Reserve" %>
+  
+  <br />
+  <%= button_tag 'Reserve', class:'square_btn' %>
+  
 <% end %>
 
 
